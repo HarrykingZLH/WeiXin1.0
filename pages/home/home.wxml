@@ -1,0 +1,11 @@
+<!--pages/home/home.wxml-->
+
+<view class="container">
+  <text class="title">欢迎来到骰子游戏</text>
+  <text>点击开始按钮开始游戏：</text>
+  <button bindtap="startGame">开始游戏</button>
+  <button class="rules" bindtap="openRules">游戏规则</button>
+</view>
+
+
+

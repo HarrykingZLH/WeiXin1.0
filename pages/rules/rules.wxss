@@ -1,0 +1,79 @@
+/* rules.wxss */
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+  }
+  
+.title1 {
+    font-weight: bold;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #333;
+}
+
+.title2 {
+    font-weight: bold;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #333;
+}
+  
+.up_button {
+    background-color: #DDDDDD;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.down_button {
+    background-color: #444444;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* 轮播组件样式 */
+swiper {
+    width: 100%; /* 使轮播容器宽度适应屏幕宽度 */
+    height: 165px;
+    text-align: center; /* 居中显示轮播项 */
+    margin-bottom: 5px;
+}
+
+swiper image {
+    border: 2px solid black;
+    width: 75%; /* 强制图片宽度为100% */
+    height: 100%;
+    display: inline-block; /* 使图片在轮播项中居中显示 */
+    border-bottom: 2px solid black;
+  }
+
+text {
+    font-size: 16px;
+    /*段落排版--首字缩进*/
+    text-indent: 7em;
+    /*段落排版--行间距（行高）*/
+    line-height: 1.5em;
+    /*段落排版--中文字间距*/
+    letter-spacing: 1px;
+    /*字母间距*/
+    word-spacing: 4px;
+    /*文字对齐 right 、left 、center  */
+    text-align: left;
+  }

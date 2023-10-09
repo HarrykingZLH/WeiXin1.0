@@ -1,0 +1,60 @@
+/* game_modes.wxss */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* 垂直居中且在上下两端有间隙 */
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .title {
+      font-weight: bold;
+    font-size: 40px;
+    margin-top: 20px; /* 将标题上移 */
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .modes {
+    flex: 1; /* 使游戏模式选项占据剩余的空间 */
+  }
+  
+  .mode-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .mode-icon {
+    width: 64px;
+    height: 64px;
+    margin-right: 10px;
+  }
+  
+  .mode-label {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .back-button {
+    align-self: flex-end; /* 按钮位于右下角 */
+    margin-bottom: 20px;
+    margin-right: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center; /* 垂直居中 */
+  }
+  
+  .back-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .back-label {
+    font-size: 16px;
+    color: #007bff; /* 链接颜色 */
+  }
+  

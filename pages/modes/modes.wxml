@@ -1,0 +1,21 @@
+<view class="container">
+  <text class="title">游戏模式</text>
+  <view class="modes">
+    <view class="mode-option" bindtap="LocalBattles">
+      <image class="mode-icon" src="/images/LOGO/VS.png"></image>
+      <text class="mode-label">本地对战</text>
+    </view>
+    <view class="mode-option" bindtap="startMediumMode">
+      <image class="mode-icon" src="/images/LOGO/AI.png"></image>
+      <text class="mode-label">人机对战</text>
+    </view>
+    <view class="mode-option" bindtap="startHardMode">
+      <image class="mode-icon" src="/images/LOGO/WIFI.png"></image>
+      <text class="mode-label">联机对战</text>
+    </view>
+  </view>
+  <view class="back-button" bindtap="goToHomePage">
+    <image class="back-icon" src="/images/LOGO/home.png"></image>
+    <text class="back-label">返回主页</text>
+  </view>
+</view>
