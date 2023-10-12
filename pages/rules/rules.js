@@ -12,14 +12,14 @@ Page({
 
     goBack: function () {
       // 返回主页
-      wx.navigateTo({
+      wx.redirectTo({
         url: '/pages/home/home' // 规则页面的路径，根据实际路径进行调整
         });
     },
     startGame: function () {
       // 开始游戏逻辑
       // 可以在这里添加开始游戏的逻辑
-      wx.navigateTo({
+      wx.redirectTo({
         url: '/pages/modes/modes' // 规则页面的路径，根据实际路径进行调整
         });
     },

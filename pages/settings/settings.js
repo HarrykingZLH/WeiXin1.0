@@ -2,8 +2,8 @@
 Page({
     data: {
       totalRounds: 10, // 总局数
-      player1Chips: 1000, // 玩家1的筹码
-      player2Chips: 1000, // 玩家2的筹码
+      player1Chips: 500, // 玩家1的筹码
+      player2Chips: 500, // 玩家2的筹码
     },
   
     // 提交表单
@@ -16,15 +16,14 @@ Page({
             player2Chips: formData.player2Chips,
         });
       
-        wx.navigateTo({
+        wx.redirectTo({
             url: '/pages/vsgame/vsgame?param1='+ this.data.totalRounds + '&param2=' + this.data.player1Chips + '&param3=' + this.data.player2Chips,
         });
     },
-  
-    // 返回到模式选择页面
+
     goToHomePage: function () {
-        wx.navigateTo({
-            url: '/pages/modes/modes' // 规则页面的路径，根据实际路径进行调整
+        wx.redirectTo({
+            url: '/pages/modes/modes'
         });
     },
   });

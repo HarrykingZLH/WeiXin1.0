@@ -1,30 +1,12 @@
+// pages/ranks/ranks.js
 Page({
+
+    /**
+     * 页面的初始数据
+     */
     data: {
 
     },
-    localMode: function () {
-        wx.redirectTo({
-            url: '/pages/settings/settings',
-        });
-    },
-
-    aiMode: function () {
-      // 处理选择中等模式的逻辑
-      // 可以跳转到中等模式游戏页面
-    },
-
-    onlineMode: function () {
-      // 处理选择困难模式的逻辑
-      // 可以跳转到困难模式游戏页面
-    },
-
-    goToHomePage: function () {
-        wx.redirectTo({
-            url: '/pages/home/home'
-        });
-    },
-
-  
 
     /**
      * 生命周期函数--监听页面加载

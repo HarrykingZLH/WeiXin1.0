@@ -1,60 +1,50 @@
 /* game_modes.wxss */
 .container {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between; /* 垂直居中且在上下两端有间隙 */
-    height: 100vh;
-    background-color: #f0f0f0;
-  }
-  
-  .title {
-      font-weight: bold;
-    font-size: 40px;
-    margin-top: 20px; /* 将标题上移 */
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  .modes {
-    flex: 1; /* 使游戏模式选项占据剩余的空间 */
-  }
-  
-  .mode-option {
+    justify-content: center;
+}
+
+view {
+    color: #22223b;
+    font-weight: bold;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 12vh;
+    margin-top: 10vh;
+}
+
+.modes {
+    margin: 1vh;
+}
+
+.mode-option {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
-    cursor: pointer;
-  }
-  
-  .mode-icon {
-    width: 64px;
-    height: 64px;
-    margin-right: 10px;
-  }
-  
-  .mode-label {
-    font-size: 18px;
-    color: #555;
-  }
-  
-  .back-button {
+    margin: 5vh;
+}
+
+.mode-icon {
+    width: 16vh;
+    height: 16vh;
+    margin-right: 3vh;
+}
+
+.mode-label {
+    font-size: 4.5vh;
+}
+
+.back-button {
     align-self: flex-end; /* 按钮位于右下角 */
-    margin-bottom: 20px;
-    margin-right: 30px;
-    cursor: pointer;
-    display: flex;
-    align-items: center; /* 垂直居中 */
-  }
-  
-  .back-icon {
-    width: 24px;
-    height: 24px;
-    margin-right: 10px;
-  }
-  
-  .back-label {
-    font-size: 16px;
-    color: #007bff; /* 链接颜色 */
-  }
+}
+
+.back-icon {
+    width: 10vh;
+    height: 10vh;
+    margin-right: 3vh;
+}
   

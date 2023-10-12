@@ -1,10 +1,11 @@
 {
   "pages":[
     "pages/home/home",
-    "pages/rules/rules",
     "pages/vsgame/vsgame",
+    "pages/settings/settings",
+    "pages/rules/rules",
     "pages/modes/modes",
-    "pages/settings/settings"
+    "pages/ranks/ranks"
   ],
   "window":{
     "backgroundTextStyle":"light",
